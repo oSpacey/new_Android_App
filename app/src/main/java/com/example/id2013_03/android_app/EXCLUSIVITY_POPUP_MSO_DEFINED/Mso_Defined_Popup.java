@@ -51,7 +51,6 @@ public class Mso_Defined_Popup extends AppCompatActivity{
         viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
         viewPager.setOffscreenPageLimit(2);
-        viewPager.setCurrentItem(1);
 
         tabLayout = (TabLayout) findViewById(R.id.exclusivity_pop_Tabs);
         tabLayout.setupWithViewPager(viewPager);

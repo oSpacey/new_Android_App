@@ -22,6 +22,8 @@ import android.widget.ScrollView;
 import android.widget.Toast;
 
 import com.example.id2013_03.android_app.R;
+import com.example.id2013_03.android_app.SPEC_POPUP.Brakes;
+import com.example.id2013_03.android_app.SPEC_POPUP.Powertrain;
 
 /*
      ---------------------------------------------------------------------------------------------------------------------------

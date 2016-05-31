@@ -24,12 +24,12 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mclaren_f1.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_heritage_popup.xml",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_heritage_popup.xml"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_heritage_popup.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_heritage_popup.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -108,6 +108,10 @@
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_main_tabs.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\spec_main_tabs.xml"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -142,6 +146,10 @@
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_defined_super_series.xml",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_defined_super_series.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\powertrain_content.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\powertrain_content.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_limited_popup.xml",
@@ -236,20 +244,16 @@
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_heritage_intro.xml",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_heritage_intro.xml"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_heritage_intro.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_heritage_intro.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\powertrain.xml",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\powertrain.xml"
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",

@@ -9,28 +9,19 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
-import android.view.View;
-import android.widget.ImageView;
-
-import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED.SportsSeries;
-import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED.SuperSeries;
-import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED.UltimateSeries;
 import com.example.id2013_03.android_app.R;
 
 import static android.view.Gravity.BOTTOM;
 
-/**
- * Created by ID2013-03 on 31/05/2016.
- */
+
 public class Powertrain extends AppCompatActivity {
 
         ViewPager viewPager;
         TabLayout tabLayout;
-        ImageView closeDefined;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mso_defined_popup);
+        setContentView(R.layout.spec_main_tabs);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -41,18 +32,11 @@ public class Powertrain extends AppCompatActivity {
 
         getWindow().setGravity(BOTTOM);
 
-        closeDefined = (ImageView)findViewById(R.id.closeDefined);
-        closeDefined.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
 
         viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
         viewPager.setOffscreenPageLimit(2);
-        viewPager.setCurrentItem(1);
+        viewPager.setCurrentItem(0);
 
         tabLayout = (TabLayout) findViewById(R.id.exclusivity_pop_Tabs);
         tabLayout.setupWithViewPager(viewPager);
@@ -83,7 +67,7 @@ public class Powertrain extends AppCompatActivity {
 
 
     private class CustomAdapter extends FragmentStatePagerAdapter {
-        private String fragments[] = {"Sport Series", "Super Series", "Ultimate Series"};
+        private String fragments[] = {"Powertrain", "Chassis & Brakes", "Body"};
 
         public CustomAdapter(FragmentManager supportFragmentManager, Context applicationContext) {
             super(supportFragmentManager);
