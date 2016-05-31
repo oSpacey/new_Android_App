@@ -41,13 +41,14 @@ public class SportsSeries extends Fragment {
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 windowOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 roofOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
+                backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
             }
         });
 
         doorOfCar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity().getApplicationContext(), "Not yet implemented", Toast.LENGTH_LONG).show();
+                sportsTextScroll.scrollTo(0, 2520);
                 frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
                 windowOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
@@ -83,6 +84,7 @@ public class SportsSeries extends Fragment {
         backOfCar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                sportsTextScroll.scrollTo(0, 1682);
                 frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 windowOfCar.setBackgroundResource(R.drawable.exclusivity_oval);

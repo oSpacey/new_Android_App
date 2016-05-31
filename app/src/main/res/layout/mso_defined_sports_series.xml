@@ -33,10 +33,25 @@
             android:layout_marginLeft="-5dp"/>
 
             <ImageView
+                android:id="@+id/front_bumper"
                 android:layout_width="647dp"
                 android:layout_height="840dp"
                 android:layout_below="@+id/sports_text_main"
                 android:src="@drawable/exclusivity_sport_front_car"/>
+
+            <ImageView
+                android:id="@+id/rear_bumper"
+                android:layout_width="647dp"
+                android:layout_height="840dp"
+                android:layout_below="@+id/front_bumper"
+                android:src="@drawable/mso_defined_sports_rear_bumper"/>
+
+            <ImageView
+                android:id="@+id/car_exterior"
+                android:layout_width="647dp"
+                android:layout_height="840dp"
+                android:layout_below="@+id/rear_bumper"
+                android:src="@drawable/mso_defined_sports_fibre_exterior"/>
 
 
         </RelativeLayout>
