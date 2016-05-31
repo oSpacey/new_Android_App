@@ -16,12 +16,12 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mclaren_f1.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exclusivitymain.xml",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\exclusivitymain.xml"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_programmes_popup.xml",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_programmes_popup.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exclusivitymain.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\exclusivitymain.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -96,12 +96,12 @@
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_bespoke_interior.xml",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_bespoke_interior.xml"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_bespoke_interior.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_bespoke_interior.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -144,12 +144,12 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_defined_super_series.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_limited_popup.xml",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_limited_popup.xml"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_limited_popup.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_limited_popup.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_page_technical_specs_card.xml",
@@ -256,12 +256,12 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\powertrain.xml"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_limited_introduction.xml",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_limited_introduction.xml"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso_limited_introduction.xml",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\layout\\mso_limited_introduction.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",

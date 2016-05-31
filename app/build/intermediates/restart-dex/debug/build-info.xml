@@ -4,7 +4,7 @@
     api-level="22"
     density="mdpi"
     format="7"
-    timestamp="19795174376705" >
+    timestamp="21240659749334" >
 
     <task
         name="javac"
@@ -19,93 +19,19 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="18919809753606" >
+    <artifact
+        location="J:\AndroidApp\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="21083425741778" >
         <artifact
             location="J:\AndroidApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="18986003768768"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\18986003768768\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19009486223204"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19009486223204\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19519481558427"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19519481558427\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19528801501790"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19528801501790\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19542552093613"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19542552093613\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19571556226742"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19571556226742\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19582621934377"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19582621934377\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19592923440080"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19592923440080\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19603891925459"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19603891925459\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="19678864041506" >
+    <build timestamp="21240659749334" >
         <artifact
             location="J:\AndroidApp\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
     </build>
-    <build
-        timestamp="19719155036718"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19719155036718\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="19730075725591"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="J:\AndroidApp\app\build\intermediates\builds\debug\19730075725591\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build timestamp="19795174376705" />
 
 </instant-run>
