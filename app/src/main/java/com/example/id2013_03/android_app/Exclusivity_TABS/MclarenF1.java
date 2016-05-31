@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_BESPOKE.Mso_Bespoke_Popup;
 import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED.Mso_Defined_Popup;
 import com.example.id2013_03.android_app.R;
 
@@ -34,6 +35,14 @@ public class MclarenF1 extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getActivity(), Mso_Defined_Popup.class);
+                startActivity(i);
+            }
+        });
+
+        msoBespoke.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), Mso_Bespoke_Popup.class);
                 startActivity(i);
             }
         });

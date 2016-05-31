@@ -1,6 +1,5 @@
 package com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -19,7 +18,7 @@ public class SuperSeries extends Fragment {
     ImageView backOfCar;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.exclusivity_mso_super_series, container, false);
+        View rootView = inflater.inflate(R.layout.mso_defined_super_series, container, false);
 
         car01 = (ImageView)rootView.findViewById(R.id.car_01);
         car02 = (ImageView)rootView.findViewById(R.id.car_02);

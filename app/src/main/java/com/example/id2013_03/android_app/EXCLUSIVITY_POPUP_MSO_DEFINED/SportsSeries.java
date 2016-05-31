@@ -1,6 +1,5 @@
 package com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -24,7 +23,7 @@ public class SportsSeries extends Fragment {
     ScrollView sportsTextScroll;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.exclusivity_mso_sports_series, container, false);
+        View rootView = inflater.inflate(R.layout.mso_defined_sports_series, container, false);
 
         frontOfCar = (ImageView)rootView.findViewById(R.id.front_of_car);
         doorOfCar = (ImageView)rootView.findViewById(R.id.door_of_car);
