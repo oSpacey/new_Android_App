@@ -35,6 +35,21 @@
             android:name=".EXCLUSIVITY_POPUP_MSO_BESPOKE.Mso_Bespoke_Popup"
             android:noHistory="true"
             android:theme="@style/chassisWin"></activity>
+
+        <activity
+            android:name=".EXCLUSIVITY_POPUP_MSO_HERITAGE.Mso_Heritage_Popup"
+            android:noHistory="true"
+            android:theme="@style/chassisWin"></activity>
+
+        <activity
+            android:name=".EXCLUSIVITY_POPUP_MSO_LIMITED.Mso_Limited_Popup"
+            android:noHistory="true"
+            android:theme="@style/chassisWin"></activity>
+
+        <activity
+            android:name=".EXCLUSIVITY_POPUP_MSO_PROGRAMMES.Mso_Programmes_Popup"
+            android:noHistory="true"
+            android:theme="@style/chassisWin"></activity>
     </application>
 
 </manifest>

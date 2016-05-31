@@ -16,6 +16,10 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\powertrain_lubricant.jpg"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_heritage_first_image.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_heritage_first_image.png"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
@@ -92,6 +96,10 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\chassis_title.png"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_heritage_title.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_heritage_title.png"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_main_text.png",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_main_text.png"
     },
@@ -110,6 +118,10 @@
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_limited_image.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_limited_image.png"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_defined_sports_text.png",
@@ -212,6 +224,10 @@
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_limited_text.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_limited_text.png"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -304,8 +320,16 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_defined_card.png"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_limited_title.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_limited_title.png"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_mso_programmes_card.png",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_programmes_card.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_heritage_text.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_heritage_text.png"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_bespoke_interior_image.png",

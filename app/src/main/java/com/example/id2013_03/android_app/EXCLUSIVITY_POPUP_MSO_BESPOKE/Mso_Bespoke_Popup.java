@@ -79,7 +79,7 @@ public class Mso_Bespoke_Popup extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return new Introduction();
+                    return new Introduction_Bespoke();
                 case 1:
                     return new Custom_Interior_Tailoring();
                 case 2:
