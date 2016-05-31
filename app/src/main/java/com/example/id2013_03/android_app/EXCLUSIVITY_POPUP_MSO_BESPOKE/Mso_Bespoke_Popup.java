@@ -1,6 +1,7 @@
 package com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_BESPOKE;
 
 import android.content.Context;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -9,6 +10,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.id2013_03.android_app.R;
 
@@ -20,6 +23,7 @@ import static android.view.Gravity.BOTTOM;
 public class Mso_Bespoke_Popup extends AppCompatActivity {
     ViewPager viewPager;
     TabLayout tabLayout;
+    ImageView closeBespoke;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,14 @@ public class Mso_Bespoke_Popup extends AppCompatActivity {
         getWindow().setLayout((width * 1), (int) (height * .95));
 
         getWindow().setGravity(BOTTOM);
+
+        closeBespoke = (ImageView)findViewById(R.id.closeBespoke);
+        closeBespoke.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
 
         viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);

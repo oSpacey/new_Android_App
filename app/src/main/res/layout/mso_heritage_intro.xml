@@ -26,4 +26,6 @@
         android:scaleType="fitXY"
         android:src="@drawable/mso_heritage_first_image" />
 
+
+
 </RelativeLayout>

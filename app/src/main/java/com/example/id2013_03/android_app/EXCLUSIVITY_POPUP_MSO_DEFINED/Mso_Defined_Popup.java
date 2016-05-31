@@ -9,6 +9,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.id2013_03.android_app.R;
 import com.example.id2013_03.android_app.TABS.Exclusivity;
@@ -23,6 +25,7 @@ public class Mso_Defined_Popup extends AppCompatActivity{
 
     ViewPager viewPager;
     TabLayout tabLayout;
+    ImageView closeDefined;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +39,14 @@ public class Mso_Defined_Popup extends AppCompatActivity{
         getWindow().setLayout((width * 1), (int) (height * .95));
 
         getWindow().setGravity(BOTTOM);
+
+        closeDefined = (ImageView)findViewById(R.id.closeDefined);
+        closeDefined.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));

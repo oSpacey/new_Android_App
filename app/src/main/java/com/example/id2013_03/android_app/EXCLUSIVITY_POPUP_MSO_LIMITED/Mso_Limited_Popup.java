@@ -9,6 +9,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_BESPOKE.Bespoke_Paintwork;
 import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_BESPOKE.Create_Your_Perfect_McLaren;
@@ -23,9 +25,10 @@ import static android.view.Gravity.BOTTOM;
  * Created by ID2013-03 on 31/05/2016.
  */
 public class Mso_Limited_Popup extends AppCompatActivity{
+
     ViewPager viewPager;
     TabLayout tabLayout;
-
+    ImageView closeLimited;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +42,14 @@ public class Mso_Limited_Popup extends AppCompatActivity{
         getWindow().setLayout((width * 1), (int) (height * .95));
 
         getWindow().setGravity(BOTTOM);
+
+        closeLimited = (ImageView)findViewById(R.id.closeLimited);
+        closeLimited.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
 
         viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);

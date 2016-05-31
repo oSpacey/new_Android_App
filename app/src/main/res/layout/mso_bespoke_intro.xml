@@ -27,4 +27,5 @@
         android:scaleType="fitXY"
         android:src="@drawable/mso_bespoke_intro_image" />
 
+
 </RelativeLayout>

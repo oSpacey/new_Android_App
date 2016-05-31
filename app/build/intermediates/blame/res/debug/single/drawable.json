@@ -12,6 +12,10 @@
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_defined_sports_rear_bumper.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_defined_sports_rear_bumper.png"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\powertrain_lubricant.jpg",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\powertrain_lubricant.jpg"
     },
@@ -44,12 +48,20 @@
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_programmes_image.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_programmes_image.png"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_main_image.png",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_main_image.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_defined_sports_fibre_exterior.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_defined_sports_fibre_exterior.png"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\factory_handowver_image.png",
@@ -102,6 +114,10 @@
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_main_text.png",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_main_text.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_defined_ultimate_text.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_defined_ultimate_text.png"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\powertrain_further_info.jpg",
@@ -160,6 +176,10 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_limited_card.png"
     },
     {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_programmes_text.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_programmes_text.png"
+    },
+    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
@@ -170,6 +190,10 @@
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_f1.png",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_f1.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_defined_ultimate_image.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_defined_ultimate_image.png"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
@@ -248,20 +272,8 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_sport_front_car.png"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_bespoke_intro_text.png",
@@ -284,12 +296,40 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_f1_title.png"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_mso_heritage_card.png",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_heritage_card.png"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_bottom.png",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_bottom.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_mso_defined_card.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_defined_card.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_limited_title.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_limited_title.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_heritage_text.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_heritage_text.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_bespoke_interior_image.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_bespoke_interior_image.png"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "J:\\AndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_mso_heritage_card.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_heritage_card.png"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
@@ -298,6 +338,10 @@
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spec_back_to_top.jpg",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\spec_back_to_top.jpg"
+    },
+    {
+        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_programme_title.png",
+        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_programme_title.png"
     },
     {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_mso_super_text.png",
@@ -316,23 +360,7 @@
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_text.png"
     },
     {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_mso_defined_card.png",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_defined_card.png"
-    },
-    {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_limited_title.png",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_limited_title.png"
-    },
-    {
         "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exclusivity_mso_programmes_card.png",
         "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\exclusivity_mso_programmes_card.png"
-    },
-    {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_heritage_text.png",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_heritage_text.png"
-    },
-    {
-        "merged": "J:\\AndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_bespoke_interior_image.png",
-        "source": "J:\\AndroidApp\\app\\src\\main\\res\\drawable\\mso_bespoke_interior_image.png"
     }
 ]

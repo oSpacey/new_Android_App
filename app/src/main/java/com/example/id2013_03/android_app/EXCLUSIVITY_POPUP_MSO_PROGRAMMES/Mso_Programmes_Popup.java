@@ -9,19 +9,22 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.id2013_03.android_app.R;
 
 import static android.view.Gravity.BOTTOM;
 
 public class Mso_Programmes_Popup extends AppCompatActivity{
+
     ViewPager viewPager;
     TabLayout tabLayout;
-
+    ImageView closeProgrammes;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mso_bespoke_popup);
+        setContentView(R.layout.mso_programmes_popup);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -32,6 +35,13 @@ public class Mso_Programmes_Popup extends AppCompatActivity{
 
         getWindow().setGravity(BOTTOM);
 
+        closeProgrammes = (ImageView)findViewById(R.id.closeProgrammes);
+        closeProgrammes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
