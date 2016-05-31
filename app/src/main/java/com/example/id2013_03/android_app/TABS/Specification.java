@@ -8,7 +8,6 @@ package com.example.id2013_03.android_app.TABS;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.NestedScrollView;
@@ -22,8 +21,6 @@ import android.widget.RadioButton;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
-import com.example.id2013_03.android_app.SPEC_POPUP.Brakes;
-import com.example.id2013_03.android_app.SPEC_POPUP.Powertrain;
 import com.example.id2013_03.android_app.R;
 
 /*

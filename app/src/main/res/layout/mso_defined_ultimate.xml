@@ -13,7 +13,8 @@
         android:layout_width="647dp"
         android:layout_height="840dp"
         android:src="@drawable/mso_defined_ultimate_text"
-        android:layout_marginLeft="5dp"/>
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="60dp"/>
 
     <ImageView
         android:layout_width="1800dp"

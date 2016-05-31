@@ -28,7 +28,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="7dp"
             android:background="@null"
-            android:src="@drawable/arrow_down_spec" />
+            android:src="@drawable/spec_down_arrow" />
 
         <include
             android:id="@+id/spec_side_menu"

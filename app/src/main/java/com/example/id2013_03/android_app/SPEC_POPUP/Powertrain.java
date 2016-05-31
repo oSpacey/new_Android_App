@@ -1,45 +1,36 @@
 package com.example.id2013_03.android_app.SPEC_POPUP;
-/*
-     ---------------------------------------------------------------------------------------------------------------------------
-                                            Imported necessary functions
-     ---------------------------------------------------------------------------------------------------------------------------
-*/
 
-import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ScrollView;
 
+import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED.SportsSeries;
+import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED.SuperSeries;
+import com.example.id2013_03.android_app.EXCLUSIVITY_POPUP_MSO_DEFINED.UltimateSeries;
 import com.example.id2013_03.android_app.R;
 
 import static android.view.Gravity.BOTTOM;
 
-/*
-     ---------------------------------------------------------------------------------------------------------------------------
-                                            Main class for this section
-     ---------------------------------------------------------------------------------------------------------------------------
-*/
-public class Powertrain extends Activity {
+/**
+ * Created by ID2013-03 on 31/05/2016.
+ */
+public class Powertrain extends AppCompatActivity {
 
-    /*
-         ---------------------------------------------------------------------------------------------------------------------------
-                                    Variables used throughout this page of code
-         ---------------------------------------------------------------------------------------------------------------------------
-    */
-    ScrollView powerScroll;
+        ViewPager viewPager;
+        TabLayout tabLayout;
+        ImageView closeDefined;
 
-    ImageView closePowerPop;
-    ImageView engineBtn;
-    ImageView transmitionBtn;
-    ImageView exhaustBtn;
-    ImageView lubricationBtn;
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.powertrain);
+        setContentView(R.layout.mso_defined_popup);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -50,75 +41,79 @@ public class Powertrain extends Activity {
 
         getWindow().setGravity(BOTTOM);
 
-
-        closePowerPop = (ImageView) findViewById(R.id.closePower);
-        closePowerPop.setOnClickListener(new View.OnClickListener() {
+        closeDefined = (ImageView)findViewById(R.id.closeDefined);
+        closeDefined.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 finish();
             }
         });
 
+        viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);
+        viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
+        viewPager.setOffscreenPageLimit(2);
+        viewPager.setCurrentItem(1);
 
-        engineBtn = (ImageView) findViewById(R.id.engine_btn);
-        transmitionBtn = (ImageView) findViewById(R.id.transmission_btn);
-        exhaustBtn = (ImageView) findViewById(R.id.exhaust_btn);
-        lubricationBtn = (ImageView) findViewById(R.id.lubrication_btn);
+        tabLayout = (TabLayout) findViewById(R.id.exclusivity_pop_Tabs);
+        tabLayout.setupWithViewPager(viewPager);
 
-        powerScroll = (ScrollView) findViewById(R.id.power_scroll);
-
-        engineBtn.setOnClickListener(new View.OnClickListener() {
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
-            public void onClick(View v) {
-                powerScroll.scrollTo(0, 718);
-                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
-                transmitionBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
 
             }
-        });
 
-
-        transmitionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                powerScroll.scrollTo(0, 1431);
-                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                transmitionBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
-                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+            public void onTabUnselected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
 
             }
-        });
 
-        exhaustBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                powerScroll.scrollTo(0, 2145);
-                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                transmitionBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
-                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+            public void onTabReselected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
 
             }
+
         });
 
-        lubricationBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                powerScroll.scrollTo(0, 2955);
-                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                transmitionBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval);
-                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
-
-            }
-        });
 
     }
 
-}
 
+    private class CustomAdapter extends FragmentStatePagerAdapter {
+        private String fragments[] = {"Sport Series", "Super Series", "Ultimate Series"};
+
+        public CustomAdapter(FragmentManager supportFragmentManager, Context applicationContext) {
+            super(supportFragmentManager);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            switch (position) {
+                case 0:
+                    return new Powertrain_Content();
+                case 1:
+                    return new Brakes_Content();
+                case 2:
+                    return new Body_Content();
+                default:
+                    return null;
+            }
+        }
+
+        @Override
+        public int getCount() {
+            return fragments.length;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return fragments[position];
+        }
+
+
+    }
+}
 

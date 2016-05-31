@@ -2295,7 +2295,7 @@ containing a value of this type.
         public static final int mso_programme_title=0x7f02006e;
         public static final int mso_programmes_image=0x7f02006f;
         public static final int mso_programmes_text=0x7f020070;
-        public static final int notification_template_icon_bg=0x7f020084;
+        public static final int notification_template_icon_bg=0x7f020085;
         public static final int powertrain_engine=0x7f020071;
         public static final int powertrain_exhaust=0x7f020072;
         public static final int powertrain_further_info=0x7f020073;
@@ -2307,14 +2307,15 @@ containing a value of this type.
         public static final int spec_add=0x7f020079;
         public static final int spec_add_06=0x7f02007a;
         public static final int spec_back_to_top=0x7f02007b;
-        public static final int spec_main=0x7f02007c;
-        public static final int tech_key_options=0x7f02007d;
-        public static final int tech_performance_data=0x7f02007e;
-        public static final int tech_rrp=0x7f02007f;
-        public static final int tech_side_menu=0x7f020080;
-        public static final int tech_spec_tech=0x7f020081;
-        public static final int tech_standard_equipment=0x7f020082;
-        public static final int tech_under_side_menu=0x7f020083;
+        public static final int spec_down_arrow=0x7f02007c;
+        public static final int spec_main=0x7f02007d;
+        public static final int tech_key_options=0x7f02007e;
+        public static final int tech_performance_data=0x7f02007f;
+        public static final int tech_rrp=0x7f020080;
+        public static final int tech_side_menu=0x7f020081;
+        public static final int tech_spec_tech=0x7f020082;
+        public static final int tech_standard_equipment=0x7f020083;
+        public static final int tech_under_side_menu=0x7f020084;
     }
     public static final class id {
         public static final int Efficiency_btn=0x7f0f00c0;

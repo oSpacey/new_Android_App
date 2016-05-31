@@ -50,6 +50,7 @@
             android:name=".EXCLUSIVITY_POPUP_MSO_PROGRAMMES.Mso_Programmes_Popup"
             android:noHistory="true"
             android:theme="@style/chassisWin"></activity>
+
     </application>
 
 </manifest>
