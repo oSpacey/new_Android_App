@@ -1,7 +1,0 @@
-CHANGED,J:\AndroidApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\id2013_03\android_app\TABS\Specification$override.class
-CHANGED,J:\AndroidApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,J:\AndroidApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\id2013_03\android_app\EXCLUSIVITY_POPUP_MSO_DEFINED\SuperSeries$override.class
-CHANGED,J:\AndroidApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\id2013_03\android_app\EXCLUSIVITY_POPUP_MSO_DEFINED\Mso_Defined_Popup$override.class
-CHANGED,J:\AndroidApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\id2013_03\android_app\EXCLUSIVITY_POPUP_MSO_DEFINED\SportsSeries$override.class
-CHANGED,J:\AndroidApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\id2013_03\android_app\EXCLUSIVITY_POPUP_MSO_BESPOKE\Mso_Bespoke_Popup$override.class
-CHANGED,J:\AndroidApp\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\id2013_03\android_app\SPEC_POPUP\Powertrain$override.class
