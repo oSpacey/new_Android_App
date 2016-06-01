@@ -1,6 +1,5 @@
 package com.example.id2013_03.android_app.SPEC_POPUP;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -11,9 +10,7 @@ import android.widget.ScrollView;
 
 import com.example.id2013_03.android_app.R;
 
-/**
- * Created by ID2013-03 on 31/05/2016.
- */
+
 public class Powertrain_Content extends Fragment {
     ImageView engineBtn;
     ImageView transmissionBtn;
@@ -37,6 +34,10 @@ public class Powertrain_Content extends Fragment {
             @Override
             public void onClick(View v) {
                 powerScroll.scrollTo(0, 840);
+                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
+                transmissionBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval);
 
             }
         });
@@ -45,6 +46,10 @@ public class Powertrain_Content extends Fragment {
             @Override
             public void onClick(View v) {
                 powerScroll.scrollTo(0, 1680);
+                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                transmissionBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
+                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval);
             }
         });
 
@@ -52,6 +57,10 @@ public class Powertrain_Content extends Fragment {
             @Override
             public void onClick(View v) {
                 powerScroll.scrollTo(0, 2520);
+                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                transmissionBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
+                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval);
             }
         });
 
@@ -59,6 +68,10 @@ public class Powertrain_Content extends Fragment {
             @Override
             public void onClick(View v) {
                 powerScroll.scrollTo(0, 3360);
+                engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                transmissionBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval);
+                lubricationBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
             }
         });
 
