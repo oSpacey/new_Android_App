@@ -16,6 +16,7 @@ public class Powertrain_Content extends Fragment {
     ImageView transmissionBtn;
     ImageView exhaustBtn;
     ImageView lubricationBtn;
+    ImageView powerTrain_title;
 
     ScrollView powerScroll;
 
@@ -27,6 +28,9 @@ public class Powertrain_Content extends Fragment {
         transmissionBtn = (ImageView)rootView.findViewById(R.id.powertrain_transmission);
         exhaustBtn = (ImageView)rootView.findViewById(R.id.powertrain_exhaust);
         lubricationBtn = (ImageView)rootView.findViewById(R.id.powertrain_lubricant);
+
+        powerTrain_title = (ImageView)rootView.findViewById(R.id.powertrain_title);
+        powerTrain_title.bringToFront();
 
         powerScroll = (ScrollView)rootView.findViewById(R.id.power_Scroll);
 
@@ -45,7 +49,7 @@ public class Powertrain_Content extends Fragment {
         transmissionBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                powerScroll.scrollTo(0, 1680);
+                powerScroll.scrollTo(0, 1678);
                 engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
                 transmissionBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
                 exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval);
@@ -56,7 +60,7 @@ public class Powertrain_Content extends Fragment {
         exhaustBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                powerScroll.scrollTo(0, 2520);
+                powerScroll.scrollTo(0, 2523);
                 engineBtn.setBackgroundResource(R.drawable.exclusivity_oval);
                 transmissionBtn.setBackgroundResource(R.drawable.exclusivity_oval);
                 exhaustBtn.setBackgroundResource(R.drawable.exclusivity_oval_pressed);

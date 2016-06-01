@@ -1,9 +1,11 @@
 package com.example.id2013_03.android_app.TABS;
 
-import android.app.FragmentTransaction;
+/*
+     ---------------------------------------------------------------------------------------------------------------------------
+                                            Imported necessary functions
+     ---------------------------------------------------------------------------------------------------------------------------
+*/
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -12,12 +14,22 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.TextView;
 
 import com.example.id2013_03.android_app.R;
 
+/*
+     ---------------------------------------------------------------------------------------------------------------------------
+                                            Main class for this section
+     ---------------------------------------------------------------------------------------------------------------------------
+*/
 public class MainActivity extends AppCompatActivity {
+
+/*
+     ---------------------------------------------------------------------------------------------------------------------------
+                                    Variables used throughout this page of code
+     ---------------------------------------------------------------------------------------------------------------------------
+*/
     ViewPager viewPager;
     TabLayout tabLayout;
 
@@ -30,12 +42,33 @@ public class MainActivity extends AppCompatActivity {
     Typeface custom_font;
 
 
+/*
+     ---------------------------------------------------------------------------------------------------------------------------
+                                    Creating the layout for the page
+                                The layout hold all the graphical contents
 
+                              Layout for this page --- R.layout.activity_main
+
+                        Here the ID's of the objects that the users will interact with
+                      get called. This is so that we can set attributes to the objects so
+                     "something" will actually happen when the users interact with the page.
+     ---------------------------------------------------------------------------------------------------------------------------
+*/
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+/*
+     ---------------------------------------------------------------------------------------------------------------------------
+                                    Finding the text that is displayed for the tabs
+                    Once the text if found, the type face of this font is then changed to custom_font
+
+                    custom_font is a variable. This variable has the file path for the font that is used.
+                    If you wish to change the font simply change the path, which is the first line below
+     ---------------------------------------------------------------------------------------------------------------------------
+*/
 
         String fontPath = "fonts/Roboto-Regular.ttf";
         custom_font = Typeface.createFromAsset(getAssets(), fontPath);

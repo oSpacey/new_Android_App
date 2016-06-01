@@ -4,20 +4,25 @@
     api-level="22"
     density="mdpi"
     format="7"
-    timestamp="107553546880340" >
+    timestamp="111785981944752"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="140" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="237" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="5" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
+
+    <artifact
+        location="J:\AndroidApp\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build timestamp="106286697506823" >
         <artifact
@@ -25,17 +30,99 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="107193834909520"
-        verifier="CLASS_ADDED" >
+        timestamp="111401601677923"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
         <artifact
             location="J:\AndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="107530795248390" >
+    <build timestamp="111461220991674" >
         <artifact
             location="J:\AndroidApp\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
     </build>
-    <build timestamp="107553546880340" />
+    <build
+        timestamp="111564455754427"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111564455754427\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111579802674303"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111579802674303\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111591427728761"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111591427728761\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111605656853105"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111605656853105\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111647626961408"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111647626961408\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111665902050527"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111665902050527\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111688050906959"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111688050906959\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111704585964089"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111704585964089\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111753396518627"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111753396518627\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111770250806647"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\builds\debug\111770250806647\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="111785981944752"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="J:\AndroidApp\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
 
 </instant-run>

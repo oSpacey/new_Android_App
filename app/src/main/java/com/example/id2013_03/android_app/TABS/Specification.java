@@ -65,7 +65,22 @@ public class Specification extends Fragment {
     FloatingActionButton braking_fab;
     FloatingActionButton efficiency_fab;
 
+    /*
+         ---------------------------------------------------------------------------------------------------------------------------
+                                        Creating the layout for the page
+                                    The layout hold all the graphical contents
 
+                                    Layout for this page --- R.layout.specification
+
+                            Here the ID's of the objects that the users will interact with
+                          get called. This is so that we can set attributes to the objects so
+                         "something" will actually happen when the users interact with the page.
+
+                     This page is a Fragment... This means to find anything you need to call the rootView
+                        This is due to this page being a sub-section to the main page / activity
+                   Returning the rootView is also important as this is used to actually display the contents
+         ---------------------------------------------------------------------------------------------------------------------------
+    */
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.specification, container, false);
 /*

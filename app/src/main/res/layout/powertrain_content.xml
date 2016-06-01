@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/powertrain_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/powertrain_title"/>
@@ -16,8 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/power_Scroll"
-        android:layout_marginTop="-20dp"
-
+        android:layout_marginTop="-18dp"
         android:scrollbars="none"
         >
 
