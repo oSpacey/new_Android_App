@@ -15,7 +15,7 @@
         android:layout_width="1820dp"
         android:layout_height="820dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="65dp"
         cardview:cardCornerRadius="5dp"
         cardview:cardElevation="4dp">
 
@@ -51,7 +51,7 @@
                 android:id="@+id/closeSpec_MAIN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="1750dp"
+                android:layout_marginLeft="1775dp"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/close"
                 />

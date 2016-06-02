@@ -14,6 +14,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.example.id2013_03.android_app.R;
@@ -56,7 +59,11 @@ public class MainActivity extends AppCompatActivity {
 */
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
+        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         super.onCreate(savedInstanceState);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
 
@@ -90,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
-        viewPager.setOffscreenPageLimit(2);
+        viewPager.setOffscreenPageLimit(5);
 
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(viewPager);
@@ -115,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+
 
 
     }
@@ -144,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
                     return null;
             }
         }
+
 
         @Override
         public int getCount() {

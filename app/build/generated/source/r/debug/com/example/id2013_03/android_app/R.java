@@ -2440,7 +2440,7 @@ containing a value of this type.
         public static final int media_actions=0x7f0f009d;
         public static final int middle=0x7f0f002f;
         public static final int mini=0x7f0f002d;
-        public static final int moreBtn=0x7f0f00c5;
+        public static final int moreBtn=0x7f0f00c4;
         public static final int msoBtn=0x7f0f0075;
         public static final int mso_bespoke_btn=0x7f0f007e;
         public static final int mso_defined=0x7f0f007b;
@@ -2456,7 +2456,6 @@ containing a value of this type.
         public static final int over_text=0x7f0f0066;
         public static final int parallax=0x7f0f0018;
         public static final int parentPanel=0x7f0f0042;
-        public static final int parent_scroll=0x7f0f00c2;
         public static final int pin=0x7f0f0019;
         public static final int play_button=0x7f0f0070;
         public static final int power_Scroll=0x7f0f00a8;
@@ -2470,7 +2469,6 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0f0006;
         public static final int radio=0x7f0f004f;
         public static final int rear_bumper=0x7f0f008a;
-        public static final int relative=0x7f0f00c3;
         public static final int right=0x7f0f0021;
         public static final int right_center=0x7f0f00d0;
         public static final int roof_of_car=0x7f0f008f;
@@ -2497,8 +2495,8 @@ containing a value of this type.
         public static final int sideScroll=0x7f0f00c8;
         public static final int snackbar_action=0x7f0f0072;
         public static final int snackbar_text=0x7f0f0071;
-        public static final int spec_backImg=0x7f0f00c4;
-        public static final int spec_side_menu=0x7f0f00c6;
+        public static final int spec_backImg=0x7f0f00c3;
+        public static final int spec_side_menu=0x7f0f00c5;
         public static final int spec_text=0x7f0f0065;
         public static final int split_action_bar=0x7f0f0007;
         public static final int sports_text_main=0x7f0f0088;
@@ -2522,9 +2520,11 @@ containing a value of this type.
         public static final int title_template=0x7f0f0044;
         public static final int top=0x7f0f0023;
         public static final int topPanel=0x7f0f0043;
+        public static final int under_side_menu=0x7f0f00c6;
         public static final int up=0x7f0f0008;
         public static final int useLogo=0x7f0f0013;
         public static final int vert_view=0x7f0f0073;
+        public static final int vert_view_spec=0x7f0f00c2;
         public static final int videoView=0x7f0f006f;
         public static final int viewPager=0x7f0f006b;
         public static final int view_offset_helper=0x7f0f0009;
@@ -2618,7 +2618,9 @@ containing a value of this type.
         public static final int spec_page_technical_specs_card=0x7f04004a;
         public static final int spec_side_menu=0x7f04004b;
         public static final int specification=0x7f04004c;
-        public static final int support_simple_spinner_dropdown_item=0x7f04004d;
+        public static final int specification_main=0x7f04004d;
+        public static final int specification_more_info=0x7f04004e;
+        public static final int support_simple_spinner_dropdown_item=0x7f04004f;
     }
     public static final class mipmap {
         public static final int add_btn=0x7f030000;

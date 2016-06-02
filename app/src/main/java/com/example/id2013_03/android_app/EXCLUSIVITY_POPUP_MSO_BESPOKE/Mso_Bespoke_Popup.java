@@ -35,7 +35,7 @@ public class Mso_Bespoke_Popup extends AppCompatActivity {
 
         int width = dm.widthPixels;
         int height = dm.heightPixels;
-        getWindow().setLayout((width * 1), (int) (height * .95));
+        getWindow().setLayout((width * 1), (int) (height * .975));
 
         getWindow().setGravity(BOTTOM);
 

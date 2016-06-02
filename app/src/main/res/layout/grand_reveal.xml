@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/grand_reveal"
             android:layout_marginBottom="25dp"
-            android:layout_marginLeft="800dp"
+            android:layout_marginLeft="825dp"
             android:layout_marginTop="-100dp"
             android:src="@drawable/spec_back_to_top"
             />
