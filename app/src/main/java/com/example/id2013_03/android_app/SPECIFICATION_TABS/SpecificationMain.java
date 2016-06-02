@@ -29,7 +29,7 @@ public class SpecificationMain extends Fragment {
         moreBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                viewPager.setCurrentItem(1);
+                viewPager.setCurrentItem(1, true);
             }
         });
 
